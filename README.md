@@ -1,9 +1,16 @@
-# To Do List
+# Cryptocurrency price tracker
 
 <img src="https://user-images.githubusercontent.com/55644602/145742281-6368181f-82f2-430f-b4fe-2de69b8e3e53.gif">
 
-This is Simple Todo List App for practicing React.<br>
-Check out the [Demo Link Here](https://todo-list-react-app-practice.herokuapp.com/).
+## Discription
+
+Cryptocurrency tracker displays price, volume and how much changed the rate within 24h.<br>
+Check out the [Demo Link Here](https://cryptocurrency-price-searcher.herokuapp.com/).
+
+## Technologies Used
+
+- React Hooks
+- CoinGecko[Crypto REST API](https://www.coingecko.com/en/api/documentation).
 
 ## Installation
 
@@ -19,13 +26,17 @@ $ cd <desired-directory>
 $ git clone https://github.com/Megumikawa/cryptocurrency-price-tracker.git
 
 # Change to the project directory
-$ cd todo-list
+$ cd cryptocurrency-price-tracker
 ```
 
 3. Install dependencies
 
 ```bash
 npm install
+```
+
+```bash
+npm install axios
 ```
 
 ## Local Development
