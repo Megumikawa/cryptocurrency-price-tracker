@@ -16,7 +16,7 @@ Check out the [Demo Link Here](https://todo-list-react-app-practice.herokuapp.co
 $ cd <desired-directory>
 
 # Clone the repo
-$ git clone https://github.com/Megumikawa/todo-list.git
+$ git clone https://github.com/Megumikawa/cryptocurrency-price-tracker.git
 
 # Change to the project directory
 $ cd todo-list
