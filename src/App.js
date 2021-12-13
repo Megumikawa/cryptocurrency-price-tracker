@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import './App.css';
 import Coin from './Coin';
+import Table from './Table';
 
 
 
@@ -34,6 +35,7 @@ function App() {
         </form>
       </div>
       <div className="coin-container-wrap">
+        <Table />
       {filteredCoins.map(coin => {
         return (
           <Coin

@@ -92,6 +92,9 @@
 
 /* smartphone */
 @media (max-width: 575.98px) {
+  .table-container {
+    display: none;
+  }
   .coin-container {
     margin: 0 auto;
   }
