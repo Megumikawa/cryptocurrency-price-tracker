@@ -50,18 +50,77 @@
   width: 200px;
 }
 
-/* .coin-marketcap {
-  width: 80px;
-} */
-
-/* .coin-percent {
-  width: 100%;
-} */
-
 .red {
   color: #f00606;
 }
 
 .green {
   color: #11d811;
+}
+
+/* tablet(wider) */
+@media (max-width: 991.98px) {
+  .coin-row {
+    width: auto;
+  }
+  .coin {
+    min-width: 0;
+  }
+
+  .coin-data > p {
+    margin: 0 2%;
+  }
+}
+
+/* tablet */
+@media (max-width: 767.98px) {
+  .coin-row {
+    width: auto;
+  }
+
+  .coin {
+    min-width: 0;
+  }
+
+  .coin-price {
+    width: auto;
+  }
+  .coin-container-wrap {
+    padding: 0 5%;
+  }
+}
+
+/* smartphone */
+@media (max-width: 575.98px) {
+  .coin-container {
+    margin: 0 auto;
+  }
+  .coin-row {
+    /* display: block; */
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    padding: 8% 0;
+  }
+  .coin {
+    margin-bottom: 2%;
+  }
+
+  .coin h1 {
+    font-size: 22px;
+  }
+
+  .coin-data {
+    display: block;
+    text-align: left;
+    margin-top: 4%;
+  }
+
+  .coin-data > p {
+    margin: 2% 0;
+  }
+
+  .coin-price {
+    width: auto;
+  }
 }
