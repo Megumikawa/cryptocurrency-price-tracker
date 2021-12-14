@@ -5,7 +5,7 @@
 ## Discription
 
 Cryptocurrency tracker displays price, volume and how much changed the rate within 24h.<br>
-Check out the [Demo Link Here](https://cryptocurrency-price-searcher.herokuapp.com/).
+<!-- Check out the [Demo Link Here](https://cryptocurrency-price-searcher.herokuapp.com/). -->
 
 ## Technologies Used
 
